@@ -1,0 +1,179 @@
+body {
+  margin: 0;
+  background: #f5f5f5;
+  font-family: Arial, sans-serif;
+}
+
+.top-navbar {
+  background: #212529;
+}
+
+.brand-title {
+  color: white !important;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.page-area {
+  padding: 30px 0;
+}
+
+.form-card,
+.search-card,
+.table-card {
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.section-heading,
+.table-heading,
+.search-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.section-heading {
+  justify-content: flex-start;
+  gap: 10px;
+}
+
+.section-heading h3,
+.table-heading h3,
+.search-title h3 {
+  margin: 0;
+  font-size: 20px;
+}
+
+.section-heading p,
+.table-heading p,
+.search-title p {
+  margin: 5px 0 0;
+  color: #777;
+}
+
+.section-icon {
+  width: 40px;
+  height: 40px;
+  background: #e9ecef;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 6px;
+  font-size: 24px;
+}
+
+.form-label {
+  font-weight: bold;
+}
+
+.form-control,
+.form-select {
+  min-height: 42px;
+}
+
+.option-box {
+  padding: 8px;
+  background: #f8f9fa;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.form-error {
+  margin-top: 5px;
+  padding: 6px 10px;
+  font-size: 13px;
+}
+
+.form-actions {
+  display: flex;
+  gap: 8px;
+}
+
+.search-card {
+  border-left: 4px solid #0d6efd;
+}
+
+.record-count {
+  background: #e9ecef;
+  padding: 6px 10px;
+  border-radius: 15px;
+  font-size: 13px;
+}
+
+.user-table {
+  margin-bottom: 0;
+}
+
+.user-table thead th {
+  background: #212529;
+  color: white;
+  white-space: nowrap;
+}
+
+.id-cell {
+  font-weight: bold;
+  color: #0d6efd;
+}
+
+.name-cell {
+  font-weight: bold;
+}
+
+.skill-list {
+  display: flex;
+  gap: 5px;
+  flex-wrap: wrap;
+}
+
+.skill-badge {
+  background: #0dcaf0 !important;
+  color: #000 !important;
+}
+
+.action-buttons {
+  display: flex;
+  gap: 5px;
+}
+
+.edit-btn {
+  background: #ffc107;
+  border-color: #ffc107;
+  color: #000;
+}
+
+.delete-btn {
+  background: #dc3545;
+  border-color: #dc3545;
+}
+
+.empty-row {
+  text-align: center;
+  padding: 30px !important;
+}
+
+.pagination-area {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+@media (max-width: 767px) {
+  .page-area {
+    padding: 15px 0;
+  }
+
+  .form-card,
+  .search-card,
+  .table-card {
+    padding: 15px;
+  }
+
+  .record-count {
+    display: none;
+  }
+}
